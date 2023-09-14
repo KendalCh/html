@@ -74,7 +74,7 @@ header{
 body {
     background-image:url(https://w0.peakpx.com/wallpaper/510/418/HD-wallpaper-blue-and-purple-amoled-background-black-dark-edge-oppo-realme-red-samsung.jpg);
     background-repeat: no-repeat;
-    background-size:1280px 583px;
+    background-size:1400px 683px;
 }
 
 body h1 {
@@ -89,7 +89,7 @@ body *{
 }
 
 section {
-	padding-top: 10px;
+	padding-top: 0px;
     border-radius: 4rem;
     border: solid white 2px;
     margin: 0 auto;
@@ -103,4 +103,8 @@ section:hover {
 	background: linear-gradient(60deg, rgb(87, 0, 70), rgb(29, 1, 93), rgb(87, 1, 70));
 	transform: scale(1.1);
 	transition-duration: .8s;
+}
+
+footer {
+	padding-top: 40px;
 }
