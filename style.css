@@ -118,8 +118,8 @@ section:hover {
 .tarjeta::before {
 	content: "";
 	position: absolute;
-	height: 500px;
-	width: 450px;
+	height: 448px;
+	width: 700px;
 	background-image: conic-gradient(red 20deg, transparent 120deg);
 	animation: rotar 2s linear infinite;
 }
@@ -147,6 +147,10 @@ section:hover {
 	z-index: 2;
 	background-color: transparent;
 	text-shadow: 5px 5px 5px black;
+}
+
+.text {
+	padding: 2px;
 }
 
 footer {
