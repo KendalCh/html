@@ -43,7 +43,7 @@ header{
 .navegacion ul li a{
 	color: #ffffff;
 	text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 	padding: 12px 20px;
 	transition: .3s linear;
@@ -74,7 +74,7 @@ header{
 body {
     background-image:url(https://w0.peakpx.com/wallpaper/510/418/HD-wallpaper-blue-and-purple-amoled-background-black-dark-edge-oppo-realme-red-samsung.jpg);
     background-repeat: no-repeat;
-    background-size:1400px 683px;
+    background-size:1400px 800px;
 }
 
 body h1 {
@@ -109,7 +109,7 @@ body *{
 	justify-content: center;
 }
 
-section:hover {
+.tarjeta:hover {
 	background: linear-gradient(60deg, rgb(87, 0, 70), rgb(29, 1, 93), rgb(87, 1, 70));
 	transform: scale(1.1);
 	transition-duration: .8s;
@@ -151,8 +151,4 @@ section:hover {
 
 .text {
 	padding: 2px;
-}
-
-footer {
-	padding-top: 40px;
 }
