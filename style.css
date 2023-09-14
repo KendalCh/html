@@ -1,0 +1,106 @@
+header{
+	width: 100%;
+	height: 70px;
+	background:linear-gradient(40deg, rgb(152, 19, 101), rgb(180,10,190), rgb(100,0,200));
+    border-radius: 50px;
+}
+
+.interior{
+	max-width: 100%;
+	padding: 7 10px;
+	margin-top: 10px;
+}
+.logo{
+	float: left;
+	padding: 5px 20px 0;
+}
+.logo img{
+	height: 80px;
+}
+.logo img:hover{
+	transform: scale(1.1);
+}
+.navegacion{
+	float: left;
+	display: flex;
+	align-items: center;
+	min-height: 70.5px;
+	z-index: 1000;
+}
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+}
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+}
+.navegacion ul li:hover{
+	transform: scale(1.1);
+}
+.navegacion ul li a{
+	color: #ffffff;
+	text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	padding: 12px 20px;
+	transition: .3s linear;
+}
+.navegacion ul li a:hover{
+	color: #ffffff;
+	transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+	display: block;
+}
+.navegacion .submenu .hijos{
+	display: none;
+	background: linear-gradient(40deg, rgb(198, 21, 131), rgb(180,10,190), rgb(100,0,200));
+	position: absolute;
+	width: 100%;
+    border-radius: 10px;
+}
+.navegacion .submenu .hijos li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+	display: block;
+}
+
+body {
+    background-image:url(https://w0.peakpx.com/wallpaper/510/418/HD-wallpaper-blue-and-purple-amoled-background-black-dark-edge-oppo-realme-red-samsung.jpg);
+    background-repeat: no-repeat;
+    background-size:1280px 583px;
+}
+
+body h1 {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+body *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+section {
+	padding-top: 10px;
+    border-radius: 4rem;
+    border: solid white 2px;
+    margin: 0 auto;
+    background: linear-gradient(60deg, rgb(159, 3, 127), rgb(45, 8, 132), rgb(159, 3, 127));
+    padding:0 auto;
+    height: 420px;
+    width: 500px;
+}
+
+section:hover {
+	background: linear-gradient(60deg, rgb(87, 0, 70), rgb(29, 1, 93), rgb(87, 1, 70));
+	transform: scale(1.1);
+	transition-duration: .8s;
+}
