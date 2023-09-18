@@ -1,0 +1,19 @@
+.interior {
+    max-width: 100%;
+    padding: 7 10px;
+    margin-top: 10px;
+}
+
+.navegacion {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-height: 70,5px;
+    z-index: 1000;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0 10px;
+}
+

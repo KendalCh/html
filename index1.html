@@ -5,7 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso JS</title>
 </head>
+
+<header>
+	<nav class="menuCSS3">
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Empleados</a>
+				<ul>
+					<li><a href="#">Juan</a></li>
+					<li><a href="#">Paco</a></li>
+					<li><a href="#">Ramón</a></li>
+					<li><a href="#">María</a></li>
+				</ul>
+			</li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Contacto</a>
+				<ul>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Mapa</a></li>
+				</ul>
+
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<style>
+    .menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.menuCSS3 a {
+		display: block;
+		padding: 20px;
+        padding-left: 138px;
+        padding-right: 138px;
+		background: black;
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	.menuCSS3 a:hover {
+		background-color: #1192a3;
+	}
+
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+</style>
+
 <body>
-    <script src="/app.js"></script>
+
 </body>
 </html>
