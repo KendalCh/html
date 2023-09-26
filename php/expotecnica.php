@@ -31,8 +31,8 @@
                     <!--Login-->
                     <form action="login_usuario_be.php" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Correo Electronico">
-                        <input type="password" placeholder="Contraseña">
+                        <input type="text" placeholder="Correo Electronico" name="correo">
+                        <input type="password" placeholder="Contraseña" name="contraseña">
                         <button>Entrar</button>
                     </form>
 
