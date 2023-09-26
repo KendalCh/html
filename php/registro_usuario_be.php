@@ -7,12 +7,11 @@
     $usuario = $_POST ['usuario'];
     $contraseña = $_POST ['contraseña'];
 
-    $query = "INSERT INTO usuarios (nombre_completo, correo , usuario , contraseña) 
-              VALUES('$nombre_completo', '$correo', '$usuario', '$contraseña)";
+    $query = "INSERT INTO usuarios(nombre_completo, correo, usuario, contraseña)
+              VALUES('$nombre_completo','$correo','$usuario','$contraseña')";
 
-    $ejecutar = mysqli_query($conexion, $query);
 
-    if ($ejecutar) {
+    if (mysqli_query($conexion, $query)) {
         echo '
             <script>
                 alert("Usuario almacenado exitosamente");
