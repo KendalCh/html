@@ -25,7 +25,8 @@
     <title>KBK</title>
 </head>
 <body>
-    <h1>KBK</h1>
+    <h1 style="text-align: center;">KBK</h1>
+    <h3>Bienvenido a KBK</h3>
     <a href="php/cerrar_sesion.php"></a>
 </body>
 </html>
